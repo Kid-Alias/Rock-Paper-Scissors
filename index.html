@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+  <h1 class="website-title">Rock Paper Scissors</h1>
+        <div class="display">
+            <div class="player-human">
+                <img src="img/tron-kevin-flynn-human.png" alt="Kevin Flynn Human" width="635" height="988">
+                <p>User</p>
+            </div>
+            <p>VS</p>
+            <div class="player-computer">
+                <img src="img/tron-kevin-flynn-computer.png" alt="Kevin Flynn Computer" width="590" height="1001">
+                <p>Computer</p>
+            </div>
+        </div>
+        <div class="arena">
+            <span class="user-display">🤜</span>
+            <span class="computer-display">🤛</span>
+        </div>
+        <div class="scores">
+            <span>User: <strong id="score-user">0</strong></span>
+            <span>Ties: <strong id="score-tie">0</strong></span>
+            <span>Computer: <strong id="score-computer">0</strong></span>
+        </div>
+        <div class="choices">
+            <button type="button" class="game-btn" id="rock"><img src="img/rock monster.jpeg" alt="rock" width="784" height="1168"></button>
+            <button type="button" class="game-btn" id="paper"><img src="img/paper hand.jpeg" alt="paper" width="784" height="1168"></button>
+            <button type="button" class="game-btn" id="scissors"><img src="img/scissor monster.png" alt="scissors" width="784" height="1168"></button>
+        </div>
+</body>
+</html>
